@@ -1,0 +1,307 @@
+tileos-meta (1.33~tileos) unstable; urgency=medium
+
+  * Add fonts-noto
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 09 Sep 2022 14:33:31 +0400
+
+swaybian-meta (1.32~swaybian) unstable; urgency=medium
+
+  * Add qt6ct to swaybian-desktop
+  * Add qt6-wayland to swaybian-desktop
+  * Add dbus-broker to swaybian-base
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 08 Sep 2022 21:48:34 +0400
+
+swaybian-meta (1.31~swaybian) unstable; urgency=medium
+
+  * Add wireplumber and libspa-0.2-bluetooth
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 23 Aug 2022 22:27:14 +0400
+
+swaybian-meta (1.30~swaybian) unstable; urgency=medium
+
+  * Restructurize dependencies
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 19 Aug 2022 14:55:23 +0400
+
+swaybian-meta (1.29~swaybian) unstable; urgency=medium
+
+  * First release for Swaybian
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 17 Aug 2022 16:21:33 +0400
+
+ubuntusway-meta (1.29~kinetic) kinetic; urgency=medium
+
+  [ root ]
+  * Refreshed dependencies
+  * Removed acpi-support from desktop-recommends [amd64]
+  * Removed ubuntusway-rpi-default-settings from desktop [arm64]
+
+  [ Aleksey Samoilov ]
+  * Upload to Kinetic
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 06 Aug 2022 15:20:06 +0400
+
+ubuntusway-meta (1.28~kinetic) kinetic; urgency=medium
+
+  * Initial release
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 05 Aug 2022 13:38:40 +0400
+
+ubuntusway-meta (1.28~jammy) jammy; urgency=medium
+
+  [ root ]
+  * Refreshed dependencies
+  * Moved greetd to desktop-recommends
+  * Moved greetd-tuigreet to desktop-recommends
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 28 Jul 2022 21:00:17 +0400
+
+ubuntusway-meta (1.25~jammy) jammy; urgency=medium
+
+  [ root ]
+  * Refreshed dependencies
+  * Added ubuntusway-artwork to desktop
+  * Removed qt5-style-kvantum from desktop
+  * Removed yaru-theme-gtk from desktop
+  * Removed yaru-theme-icon from desktop
+  * Refreshed dependencies
+  * Added plymouth-theme-ubuntusway-logo to desktop
+  * Added plymouth-theme-ubuntusway-text to desktop
+  * Refreshed dependencies
+  * Added audacious to desktop-recommends
+  * Added musikcube to desktop-recommends
+  * Added usb-creator-gtk to desktop-recommends
+  * Removed grim from desktop
+  * Removed suckless-tools from desktop-recommends
+  * Refreshed dependencies
+  * Added ubuntusway-grub-theme to desktop 
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 29 Jun 2022 00:40:02 +0400
+
+ubuntusway-meta (1.21~jammy) jammy; urgency=medium
+
+  [ root ]
+  * Refreshed dependencies
+  * Added wlogout to desktop
+
+  [ Aleksey Samoilov ]
+  * Update changelog
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 21 Jun 2022 18:16:11 +0400
+
+ubuntusway-meta (1.20~jammy) jammy; urgency=medium
+
+  [ root ]
+  * Refreshed dependencies
+  * Added foot to desktop
+  * Moved kitty to desktop-recommends
+
+  [ Aleksey Samoilov ]
+  * Back to Foot as default terminal emulator
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 18 Jun 2022 21:30:04 +0400
+
+ubuntusway-meta (1.19~jammy) jammy; urgency=medium
+
+  [ root ]
+  * Refreshed dependencies
+  * Added bind9-dnsutils to standard
+  * Added fonts-freefont-ttf to desktop
+  * Added fonts-indic to desktop-recommends
+  * Added fonts-khmeros-core to desktop-recommends
+  * Added fonts-lao to desktop-recommends
+  * Added fonts-liberation to desktop-recommends
+  * Added fonts-lklug-sinhala to desktop-recommends
+  * Added fonts-sil-abyssinica to desktop-recommends
+  * Added fonts-thai-tlwg to desktop-recommends
+  * Added fonts-tibetan-machine to desktop-recommends
+  * Added jfsutils to live
+  * Added lvm2 to live
+  * Added media-types to standard
+  * Added memtest86+ to desktop-recommends [amd64]
+  * Added nftables to standard
+  * Added plymouth-theme-ubuntu-text to standard-recommends
+  * Added ubuntu-minimal to minimal
+  * Added ubuntu-standard to standard
+  * Added update-manager-core to standard-recommends
+  * Added usrmerge to minimal-recommends
+  * Added xz-utils to standard
+  * Removed cryptsetup from standard-recommends
+  * Removed dnsutils from standard
+  * Removed fwupd-signed from live
+  * Removed jfsutils from standard-recommends
+  * Removed ltrace from standard
+  * Removed lvm2 from standard-recommends
+  * Removed mime-support from standard
+  * Removed mlocate from standard-recommends
+  * Removed xorg from desktop
+  * Removed xz-utils from desktop
+  * Moved iptables to standard-recommends
+
+  [ Aleksey Samoilov ]
+  * Update changelog
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 18 Jun 2022 01:24:14 +0400
+
+ubuntusway-meta (1.15~jammy) jammy; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-hack to desktop
+  * Added pcmanfm-gtk3 to desktop-recommends
+  * Removed network-manager-gnome from desktop
+  * Removed thunar from desktop-recommends
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 10 Jun 2022 13:03:55 +0400
+
+ubuntusway-meta (1.14) jammy; urgency=medium
+
+  * Refreshed dependencies
+  * Added fonts-hack to desktop
+  * Added pcmanfm-gtk3 to desktop-recommends
+  * Removed network-manager-gnome from desktop
+  * Removed thunar from desktop-recommends
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 10 Jun 2022 12:57:39 +0400
+
+ubuntusway-meta (1.12) jammy; urgency=medium
+
+  * Refreshed dependencies
+  * Added engrampa to desktop-recommends
+  * Added lxpolkit to desktop
+  * Added nwg-look to desktop
+  * Removed file-roller from desktop-recommends
+  * Removed policykit-1-gnome from desktop
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 08 Jun 2022 18:39:34 +0400
+
+ubuntusway-meta (1.11) jammy; urgency=medium
+
+  * Refreshed dependencies
+  * Added autotiling to desktop [arm64]
+  * Added greetd to desktop [arm64]
+  * Added greetd-tuigreet to desktop [arm64]
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 07 Jun 2022 14:54:01 +0400
+
+ubuntusway-meta (1.7) jammy; urgency=medium
+
+  * Refreshed dependencies
+  * Added foot to desktop [arm64]
+  * Added libglib2.0-bin to desktop [arm64]
+  * Added mako-notifier to desktop [arm64]
+  * Added neovim to desktop [arm64]
+  * Added wlr-randr to desktop-recommends [arm64]
+  * Added xdg-desktop-portal-wlr to desktop [arm64]
+  * Added xsettingsd to desktop [arm64]
+  * Added xwayland to desktop [arm64]
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 22 May 2022 16:53:42 +0400
+
+ubuntusway-meta (1.6) jammy; urgency=medium
+
+  * Refreshed dependencies
+  * Added greetd to desktop [amd64]
+  * Added greetd-tuigreet to desktop [amd64]
+  * Added snapd to desktop-recommends
+  * Removed bash-completion from desktop
+  * Removed command-not-found from desktop
+  * Removed falkon from desktop
+  * Removed rsync from desktop
+  * Removed sddm from desktop
+  * Removed ubuntusway-default-settings from desktop [arm64]
+  * Removed ubuntusway-environment from desktop [arm64]
+  * Refreshed dependencies
+  * Added autotiling to desktop [amd64]
+  * Added azote to desktop
+  * Added cliphist to desktop
+  * Added file-roller to desktop-recommends
+  * Added nwg-drawer to desktop
+  * Added nwg-wrapper to desktop [amd64]
+  * Added pavucontrol to desktop
+  * Added playerctl to desktop
+  * Added pluma to desktop-recommends
+  * Added poweralertd to desktop
+  * Added python-is-python3 to desktop
+  * Added python3-requests to desktop
+  * Added swayimg to desktop-recommends
+  * Added thunar to desktop-recommends
+  * Added ubuntusway-default-settings to desktop [arm64]
+  * Removed flameshot from desktop-recommends
+  * Removed imv from desktop-recommends 
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 20 May 2022 10:03:00 +0400
+
+ubuntusway-meta (1.5.1) jammy; urgency=medium
+
+  * Refreshed dependencies
+  * Added flatpak to desktop
+  * Added mpv to desktop-recommends
+  * Added qtwayland5 to desktop
+  * Added snapd to desktop-recommends
+  * Added zathura-cb to desktop-recommends
+  * Added zathura-djvu to desktop-recommends
+  * Removed ubuntusway-environment from desktop
+  * Refreshed dependencies
+  * Added grim to desktop
+  * Added grimshot to desktop
+  * Added kanshi to desktop
+  * Added khal to desktop
+  * Added light to desktop
+  * Added policykit-1-gnome to desktop
+  * Added qt5ct to desktop
+  * Added slurp to desktop
+  * Added waybar to desktop
+  * Added wf-recorder to desktop
+  * Added wl-clipboard to desktop
+  * Added wob to desktop
+  * Added wofi to desktop
+  * Manualy added ubuntusway-desktop-settings to desktop
+  * Manualy added ubuntusway-environment to desktop
+  * Manualy added bash-completion to desktop
+  * Manualy added command-not-found to desktop
+  * Mannualy removed snapd from desktop-recommends
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 20 Apr 2022 19:22:42 +0400
+
+ubuntusway-meta (1.3) jammy; urgency=medium
+
+  * Refreshed dependencies
+  * Added drm-info to desktop-recommends
+  * Added fonts-liberation2 to desktop-recommends
+  * Added fonts-noto-color-emoji to desktop-recommends
+  * Added fonts-opensymbol to desktop-recommends
+  * Added gamemode to desktop-recommends [amd64]
+  * Added gstreamer1.0-alsa to desktop
+  * Added gstreamer1.0-plugins-base to desktop
+  * Added gstreamer1.0-plugins-good to desktop
+  * Added gstreamer1.0-pulseaudio to desktop
+  * Added inxi to desktop-recommends
+  * Added pulsemixer to desktop-recommends
+  * Added qt5-style-kvantum to desktop
+  * Added sway to desktop
+  * Added swaybg to desktop
+  * Added swayidle to desktop
+  * Added swaylock to desktop
+  * Added thermald to desktop-recommends [amd64]
+  * Added tlp to desktop-recommends [amd64]
+  * Added wev to desktop-recommends
+  * Removed mpv from desktop-recommends
+  * Moved htop to desktop-recommends
+  * Moved neofetch to desktop-recommends
+  * Moved pulseaudio-module-bluetooth to desktop-recommends
+  * Refreshed dependencies
+  * Added falkon to desktop
+  * Added mesa-utils to desktop-recommends
+  * Added qutebrowser to desktop
+  * Added vulkan-tools to desktop-recommends
+  * Added waypipe to desktop-recommends
+  * Added wayvnc to desktop-recommends
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 20 Apr 2022 12:26:34 +0400
+
+ubuntusway-meta (1.1) jammy; urgency=medium
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 19 Apr 2022 10:25:38 +0400
