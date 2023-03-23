@@ -31,7 +31,7 @@ Depends:
  ftp,
  hdparm,
  info,
- init
+ init,
  iproute2,
  iputils-ping,
  isc-dhcp-client,
