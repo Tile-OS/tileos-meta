@@ -149,6 +149,7 @@ Recommends:
  bluez,
  bluez-cups,
  btop,
+ cage,
  cups,
  cups-bsd,
  cups-client,
@@ -247,3 +248,12 @@ Recommends:
  ranger,
  swayimg
 Description: Sway desktop for TileOS
+
+Package: tileos-live
+Architecture: amd64 arm64
+Depends:
+ calamares-settings-tileos,
+ live-boot,
+ live-config,
+ live-config-systemd
+Description: LiveCD components for TileOS
