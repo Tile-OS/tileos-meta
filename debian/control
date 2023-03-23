@@ -217,6 +217,7 @@ Package: tileos-desktop-sway
 Architecture: amd64 arm64
 Depends:
  autotiling,
+ azote,
  calcurse,
  cliphist,
  dunst,
@@ -241,6 +242,7 @@ Depends:
  wlsunset,
  xdg-desktop-portal-wlr
 Recommends:
+ engrampa,
  firefox-esr,
  neovim,
  pcmanfm-gtk3,
