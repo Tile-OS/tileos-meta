@@ -168,7 +168,7 @@ Recommends:
  mesa-utils,
  neofetch,
  greetd,
- greetd-regreet,
+ greetd-tuigreet,
  plocate,
  printer-driver-gutenprint,
  printer-driver-pnm2ppa,
