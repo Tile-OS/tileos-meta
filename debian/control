@@ -89,7 +89,6 @@ Description: Base files for TileOS
 Package: tileos-desktop-common
 Architecture: amd64 arm64
 Depends:
- alsa-base,
  alsa-utils,
  anacron,
  bc,
