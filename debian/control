@@ -15,7 +15,6 @@ Depends:
  apt,
  apt-utils,
  bind9-dnsutils,
- busybox-static,
  console-setup,
  cpio,
  cron,
@@ -250,10 +249,10 @@ Recommends:
  swayimg
 Description: Sway desktop for TileOS
 
-Package: tileos-live
+Package: tileos-sway-live
 Architecture: amd64 arm64
 Depends:
- calamares-settings-tileos,
+ calamares-settings-tileos-sway,
  live-boot,
  live-config,
  live-config-systemd
