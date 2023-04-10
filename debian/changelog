@@ -1,3 +1,9 @@
+tileos-meta (0.7~tileos) unstable; urgency=medium
+
+  * Add tileos-settings-sway package
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Mon, 10 Apr 2023 19:46:47 +0400
+
 tileos-meta (0.6~tileos) tileos; urgency=medium
 
   * Rename live packages

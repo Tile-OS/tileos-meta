@@ -234,6 +234,7 @@ Depends:
  swayr,
  sway-input-config,
  tileos-desktop-common (= ${binary:Version}),
+ tileos-settings-sway,
  waybar,
  wf-recorder,
  wl-clipboard,
