@@ -224,6 +224,7 @@ Depends:
  grimshot,
  kanshi,
  nwg-displays,
+ nwg-drawer,
  nwg-look,
  slurp,
  swappy,
