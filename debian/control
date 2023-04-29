@@ -126,8 +126,6 @@ Depends:
  python3-requests,
  qt5ct,
  qt6ct,
- qtwayland5,
- qt6-wayland,
  qt5-style-kvantum,
  rfkill,
  tileos-base (= ${binary:Version}),
@@ -138,7 +136,6 @@ Depends:
  xdg-user-dirs,
  xkb-data,
  xsettingsd,
- xwayland,
  zip
 Recommends:
  apt-xapian-index,
@@ -147,7 +144,6 @@ Recommends:
  bluez,
  bluez-cups,
  btop,
- cage,
  cups,
  cups-bsd,
  cups-client,
@@ -185,11 +181,6 @@ Recommends:
  tlp,
  udisks2,
  upower,
- wayland-utils,
- waypipe,
- wayvnc,
- wev,
- wlr-randr,
  xdg-utils
 Description: Common desktop components for TileOS
 
@@ -226,6 +217,8 @@ Depends:
  nwg-displays,
  nwg-drawer,
  nwg-look,
+ qtwayland5,
+ qt6-wayland,
  slurp,
  swappy,
  sway,
@@ -240,7 +233,8 @@ Depends:
  wf-recorder,
  wl-clipboard,
  wlsunset,
- xdg-desktop-portal-wlr
+ xdg-desktop-portal-wlr,
+ xwayland
 Recommends:
  engrampa,
  firefox-esr,
@@ -248,7 +242,12 @@ Recommends:
  pcmanfm-gtk3,
  pluma,
  ranger,
- swayimg
+ swayimg,
+ wayland-utils,
+ waypipe,
+ wayvnc,
+ wev,
+ wlr-randr
 Description: Sway desktop for TileOS
 
 Package: tileos-sway-live

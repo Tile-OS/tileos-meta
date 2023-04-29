@@ -1,3 +1,10 @@
+tileos-meta (0.8~tileos) unstable; urgency=medium
+
+  * Remove cage
+  * Move Wayland-specific packages out of tileos-desktop-common
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sat, 29 Apr 2023 19:36:25 +0400
+
 tileos-meta (0.7~tileos) unstable; urgency=medium
 
   * Add tileos-settings-sway package
