@@ -128,6 +128,7 @@ Depends:
  qt6ct,
  qt5-style-kvantum,
  rfkill,
+ spice-vdagent,
  tileos-base (= ${binary:Version}),
  unzip,
  usb-modeswitch,
