@@ -152,6 +152,7 @@ Recommends:
  curl,
  drm-info,
  earlyoom,
+ fonts-noto,
  fonts-noto-cjk,
  fonts-noto-color-emoji,
  go-mtpfs,
