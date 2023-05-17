@@ -1,3 +1,13 @@
+tileos-meta (0.11~tileos) unstable; urgency=medium
+
+  * Initial River package
+  * Added tileos-system-adjustments
+  * Added systemd-oomd to tileos-desktop-sway
+  * Added sway-systemd to tileos-desktop-sway
+  * Removed earlyoom from tileos-desktop-common
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 17 May 2023 15:58:43 +0400
+
 tileos-meta (0.10~tileos) unstable; urgency=medium
 
   * Add fonts noto

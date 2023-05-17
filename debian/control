@@ -254,6 +254,14 @@ Recommends:
  wlr-randr
 Description: Sway desktop for TileOS
 
+Package: tileos-desktop-river
+Architecture: amd64 arm64
+Depends:
+ foot,
+ river
+Conflicts: tileos-desktop-sway
+Description: River desktop for TileOS
+
 Package: tileos-sway-live
 Architecture: amd64 arm64
 Depends:
@@ -261,4 +269,13 @@ Depends:
  live-boot,
  live-config,
  live-config-systemd
-Description: LiveCD components for TileOS
+Description: LiveCD components for TileOS (Sway variant)
+
+Package: tileos-river-live
+Architecture: amd64 arm64
+Depends:
+ calamares-settings-tileos-river,
+ live-boot,
+ live-config,
+ live-config-systemd
+Description: LiveCD components for TileOS (River variant)
