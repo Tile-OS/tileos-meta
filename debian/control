@@ -258,10 +258,38 @@ Description: Sway desktop for TileOS
 Package: tileos-desktop-river
 Architecture: amd64 arm64
 Depends:
+ calcurse,
+ cliphist,
+ dunst,
+ grimshot,
  foot,
- river
+ qtwayland5,
+ qt6-wayland,
+ slurp,
+ river,
+ tileos-desktop-common (= ${binary:Version}),
+ tileos-settings-river,
+ waybar,
+ wf-recorder,
+ wl-clipboard,
+ wlsunset,
+ wofi,
+ xwayland
+Recommends:
+ earlyoom,
+ engrampa,
+ firefox-esr,
+ neovim,
+ pcmanfm-gtk3,
+ pluma,
+ ranger,
+ wayland-utils,
+ waypipe,
+ wayvnc,
+ wev,
+ wlr-randr
 Conflicts: tileos-desktop-sway
-Description: River desktop for TileOS
+Description: River desktop for TileOS (experimental)
 
 Package: tileos-sway-live
 Architecture: amd64 arm64
