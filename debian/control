@@ -213,7 +213,6 @@ Depends:
  cliphist,
  dunst,
  foot,
- fuzzel,
  grimshot,
  kanshi,
  nwg-displays,
@@ -236,6 +235,7 @@ Depends:
  wf-recorder,
  wl-clipboard,
  wlsunset,
+ wofi,
  xdg-desktop-portal-wlr,
  xwayland
 Recommends:
