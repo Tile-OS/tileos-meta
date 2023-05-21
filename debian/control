@@ -143,6 +143,7 @@ Recommends:
  apt-xapian-index,
  avahi-autoipd,
  avahi-daemon,
+ bluetuith,
  bluez,
  bluez-cups,
  btop,
