@@ -233,6 +233,7 @@ Depends:
  sway-input-config,
  tileos-desktop-common (= ${binary:Version}),
  tileos-settings-sway,
+ tileos-sway-artwork,
  waybar,
  wf-recorder,
  wl-clipboard,
