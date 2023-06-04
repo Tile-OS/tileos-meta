@@ -1,3 +1,9 @@
+tileos-meta (0.16~tileos) unstable; urgency=medium
+
+  * Replace Wofi with Rofi Wayland
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 04 Jun 2023 21:41:58 +0400
+
 tileos-meta (0.15~tileos) unstable; urgency=medium
 
   * Rename artwork packages
