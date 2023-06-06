@@ -14,6 +14,7 @@ Depends:
  adduser,
  apt,
  apt-utils,
+ base-files,
  bind9-dnsutils,
  console-setup,
  cpio,
@@ -29,7 +30,6 @@ Depends:
  file,
  ftp,
  hdparm,
- info,
  init,
  iproute2,
  iputils-ping,
@@ -70,7 +70,6 @@ Depends:
  xz-utils
 Recommends:
  apparmor,
- base-files,
  bash-completion,
  command-not-found,
  nano,
@@ -126,7 +125,6 @@ Depends:
  python3-requests,
  qt5ct,
  qt6ct,
- qt5-style-kvantum,
  rfkill,
  spice-vdagent,
  tileos-base (= ${binary:Version}),
@@ -152,13 +150,10 @@ Recommends:
  cups-client,
  cups-filters,
  curl,
- drm-info,
  fonts-noto,
  fonts-noto-cjk,
  fonts-noto-color-emoji,
  go-mtpfs,
- hplip,
- inxi,
  laptop-detect,
  libfuse2,
  libnss-mdns,
@@ -178,8 +173,6 @@ Recommends:
  printer-driver-pxljr,
  printer-driver-sag-gdi,
  printer-driver-splix,
- simple-scan,
- system-config-printer,
  thermald,
  tlp,
  udisks2,
@@ -246,16 +239,11 @@ Depends:
 Recommends:
  engrampa,
  firefox-esr,
- neovim,
  pcmanfm-gtk3,
- pluma,
+ pluma
  ranger,
  swayimg,
  systemd-oomd,
- wayland-utils,
- waypipe,
- wayvnc,
- wev,
  wlr-randr
 Description: Sway desktop for TileOS
 
@@ -283,14 +271,9 @@ Recommends:
  earlyoom,
  engrampa,
  firefox-esr,
- neovim,
  pcmanfm-gtk3,
  pluma,
  ranger,
- wayland-utils,
- waypipe,
- wayvnc,
- wev,
  wlr-randr
 Conflicts: tileos-desktop-sway
 Description: River desktop for TileOS (experimental)

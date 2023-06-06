@@ -1,20 +1,8 @@
-tileos-meta (0.16~tileos) unstable; urgency=medium
+tileos-meta (0.17~tileos) unstable; urgency=medium
 
-  * Replace Wofi with Rofi Wayland
+  * Move some packages to Calamares netinstall module
 
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Sun, 04 Jun 2023 21:41:58 +0400
-
-tileos-meta (0.15~tileos) unstable; urgency=medium
-
-  * Rename artwork packages
-
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 26 May 2023 20:48:14 +0400
-
-tileos-meta (0.14~tileos) unstable; urgency=medium
-
-  * Add tileos-sway-artwork to tileos-desktop-sway
-
- -- Aleksey Samoilov <samoilov.lex@gmail.com>  Wed, 24 May 2023 19:04:33 +0400
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 06 Jun 2023 22:58:17 +0400
 
 tileos-meta (0.13~tileos) unstable; urgency=medium
 
