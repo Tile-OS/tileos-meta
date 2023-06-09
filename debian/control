@@ -240,7 +240,7 @@ Recommends:
  engrampa,
  firefox-esr,
  pcmanfm-gtk3,
- pluma
+ pluma,
  ranger,
  swayimg,
  wlr-randr
