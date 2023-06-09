@@ -78,7 +78,6 @@ Recommends:
  openssh-client,
  plymouth,
  tcpdump,
- telnet,
  rsyslog,
  uuid-runtime,
  usrmerge
@@ -119,6 +118,7 @@ Depends:
  network-manager,
  openprinting-ppds,
  pipewire-audio,
+ pkexec,
  playerctl,
  poweralertd,
  pulsemixer,
@@ -223,7 +223,6 @@ Depends:
  swayidle,
  swaylock,
  swayr,
- sway-systemd,
  sway-input-config,
  tileos-desktop-common (= ${binary:Version}),
  tileos-grub-theme,
@@ -237,13 +236,13 @@ Depends:
  xdg-desktop-portal-wlr,
  xwayland
 Recommends:
+ earlyoom,
  engrampa,
  firefox-esr,
  pcmanfm-gtk3,
  pluma
  ranger,
  swayimg,
- systemd-oomd,
  wlr-randr
 Description: Sway desktop for TileOS
 
