@@ -173,6 +173,7 @@ Recommends:
  printer-driver-pxljr,
  printer-driver-sag-gdi,
  printer-driver-splix,
+ systemd-timesyncd,
  thermald,
  tlp,
  udisks2,
@@ -223,6 +224,7 @@ Depends:
  swayidle,
  swaylock,
  swayr,
+ sway-systemd,
  sway-input-config,
  tileos-desktop-common (= ${binary:Version}),
  tileos-grub-theme,
@@ -236,13 +238,14 @@ Depends:
  xdg-desktop-portal-wlr,
  xwayland
 Recommends:
- earlyoom,
  engrampa,
  firefox-esr,
+ pavucontrol,
  pcmanfm-gtk3,
  pluma,
  ranger,
  swayimg,
+ systemd-oomd,
  wlr-randr
 Description: Sway desktop for TileOS
 
@@ -270,6 +273,7 @@ Recommends:
  earlyoom,
  engrampa,
  firefox-esr,
+ pavucontrol,
  pcmanfm-gtk3,
  pluma,
  ranger,
