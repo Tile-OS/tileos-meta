@@ -226,6 +226,7 @@ Depends:
  swayr,
  sway-systemd,
  sway-input-config,
+ plymouth-theme-tileos,
  tileos-desktop-common (= ${binary:Version}),
  tileos-grub-theme,
  tileos-settings-sway,
