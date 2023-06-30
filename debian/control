@@ -200,12 +200,12 @@ Description: non-free drivers and firmware for TileOS
 Package: tileos-desktop-sway
 Architecture: amd64 arm64
 Depends:
+ alacritty,
  autotiling,
  azote,
  calcurse,
  cliphist,
  dunst,
- kitty,
  grimshot,
  kanshi,
  nwg-bar,
@@ -252,11 +252,11 @@ Description: Sway desktop for TileOS
 Package: tileos-desktop-river
 Architecture: amd64 arm64
 Depends:
+ alacritty,
  calcurse,
  cliphist,
  dunst,
  grimshot,
- kitty,
  qtwayland5,
  qt6-wayland,
  river,
