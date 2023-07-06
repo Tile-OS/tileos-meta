@@ -240,11 +240,11 @@ Depends:
 Recommends:
  engrampa,
  firefox-esr,
+ imv,
  pavucontrol,
  pcmanfm-qt,
  pluma,
  ranger,
- swayimg,
  systemd-oomd,
  wlr-randr
 Description: Sway desktop for TileOS
@@ -253,28 +253,34 @@ Package: tileos-desktop-river
 Architecture: amd64 arm64
 Depends:
  alacritty,
+ azote,
  calcurse,
  cliphist,
  dunst,
  grimshot,
+ kanshi,
+ plymouth-theme-tileos,
  qtwayland5,
  qt6-wayland,
  river,
  rofi-wayland,
  slurp,
  swaybg,
+ swappy,
  tileos-desktop-common (= ${binary:Version}),
+ tileos-grub-theme,
  tileos-settings-river,
+ tileos-theme-catppuccin,
  waybar,
  wf-recorder,
  wl-clipboard,
  wlsunset,
- wofi,
  xwayland
 Recommends:
  earlyoom,
  engrampa,
  firefox-esr,
+ imv,
  pavucontrol,
  pcmanfm-qt,
  pluma,

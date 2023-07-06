@@ -1,3 +1,10 @@
+tileos-meta (0.23~tileos) unstable; urgency=medium
+
+  * Update packages list
+  * Replace swayimg with imv
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 06 Jul 2023 18:21:13 +0400
+
 tileos-meta (0.22~tileos) unstable; urgency=medium
 
   * Removed kitty
