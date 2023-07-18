@@ -1,3 +1,9 @@
+tileos-meta (0.24~tileos) unstable; urgency=medium
+
+  * Added network-manager-gnome
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Tue, 18 Jul 2023 18:08:14 +0400
+
 tileos-meta (0.23~tileos) unstable; urgency=medium
 
   * Update packages list

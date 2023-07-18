@@ -116,6 +116,7 @@ Depends:
  mobile-broadband-provider-info,
  modemmanager,
  network-manager,
+ network-manager-gnome,
  openprinting-ppds,
  pipewire-audio,
  pkexec,
