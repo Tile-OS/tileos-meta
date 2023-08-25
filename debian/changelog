@@ -1,3 +1,9 @@
+tileos-meta (0.27~tileos) unstable; urgency=medium
+
+  * Temporary remove grimshot from tileos-desktop-river
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 25 Aug 2023 23:36:36 +0400
+
 tileos-meta (0.26~tileos) unstable; urgency=medium
 
   * Add more packages to tileos-desktop-river
