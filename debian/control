@@ -279,6 +279,7 @@ Depends:
  tileos-theme-catppuccin,
  tileos-wallpapers,
  waybar,
+ wdisplays,
  wf-recorder,
  wl-clipboard,
  wlsunset,

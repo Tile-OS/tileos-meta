@@ -1,3 +1,9 @@
+tileos-meta (1.0~tileos) unstable; urgency=medium
+
+  * Add wdisplays to River edition
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Thu, 21 Sep 2023 22:25:32 +0400
+
 tileos-meta (0.29~tileos) unstable; urgency=medium
 
   * Replace Fuzzel with rofi-wayland for River edition
