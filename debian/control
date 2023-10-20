@@ -144,6 +144,7 @@ Recommends:
  bluetuith,
  bluez,
  bluez-cups,
+ bluez-obexd,
  btop,
  cups,
  cups-bsd,

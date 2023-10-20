@@ -1,3 +1,9 @@
+tileos-meta (1.0.1~tileos) unstable; urgency=medium
+
+  * Add bluez-obexd
+
+ -- Aleksey Samoilov <samoilov.lex@gmail.com>  Fri, 20 Oct 2023 23:33:32 +0400
+
 tileos-meta (1.0~tileos) unstable; urgency=medium
 
   * Add wdisplays to River edition
